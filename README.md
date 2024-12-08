@@ -34,7 +34,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 1.) Begin by creating a virtual machine by visiting <a href="https://portal.azure.com/">Azure Portal</a>. Configure the virtual machine with Windows 10 Pro, version 22H2. Ensure the setup includes at least 2 vCPUs and 16 GB of memory.
 
-2.) Once you have created your virtual machine you will want to connect to it by using the public ip address the vm is setup with. You will connect using the remote desktop connection app. 
+2.) After creating your virtual machine, connect to it using its assigned public IP address. Use the Remote Desktop Connection app to establish the connection.
+
 </p>
 <br />
 
