@@ -40,7 +40,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://imgur.com/a/IyiFJpk"/>
+<img src="<blockquote class="imgur-embed-pub" lang="en" data-id="a/IyiFJpk"  ><a href="//imgur.com/a/IyiFJpk">osTicket Prereq. &amp; Install. Screenshot1</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>"/>
 </p>
 <p>
 <p>
