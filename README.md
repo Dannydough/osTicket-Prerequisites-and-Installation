@@ -223,7 +223,7 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
   3.) php_opcache.dll
   
 <p>
-<img src="https://imgur.com/cOem7Nb.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/TQE9X9w.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
