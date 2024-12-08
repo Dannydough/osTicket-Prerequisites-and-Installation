@@ -48,7 +48,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-3.) Once you have connected to your virtual machine you will want to go to your control panel. From the control panel open up programs. Select, Turn Windows features on and off.
+3.) After connecting to your virtual machine, navigate to the Control Panel. Open the "Programs" section and select "Turn Windows features on or off." Additionally, ensure you extract the osTicket installation files to prepare for the next steps.
+
+<p>
+<img src="https://imgur.com/hE8q3jM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 <p>
 <img src="https://imgur.com/fGXMpx4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
