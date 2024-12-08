@@ -40,7 +40,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src= "https://imgur.com/WjoGqAV.png" height="40%" width="40%"/>
+<img src= "https://imgur.com/WjoGqAV.png" height="50%" width="50%"/>
 </p>
 <p>
 <p>
