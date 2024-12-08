@@ -205,7 +205,7 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
   -Click "Enable or disable an extension"
   
 <p>
-<img src="https://imgur.com/vvTLNBH.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/aYr2g27.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
