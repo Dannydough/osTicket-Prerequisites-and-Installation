@@ -151,14 +151,14 @@ Standard Configuration ->
   Click on PHP Manager
   
 <p>
-<img src="https://imgur.com/vvTLNBH.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/k8TMbOu.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
 Register new PHP version.
   
 <p>
-<img src="https://imgur.com/qdbn5zQ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/DAXaUNV.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
