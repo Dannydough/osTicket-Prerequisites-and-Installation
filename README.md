@@ -88,7 +88,7 @@ Navigate to World Wide Web Services → Application Development Features and sel
   It should look something like this. 
   
 <p>
-<img src="https://imgur.com/eICujoq.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/QV7x6mb.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
@@ -128,14 +128,14 @@ Standard Configuration ->
   Make the new root password: Password1
   
 <p>
-<img src="https://imgur.com/KxcUy7C.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Y5a64cE.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
   Execute the process on the next page.
   
 <p>
-<img src="https://imgur.com/i7sn6hT.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/pf11l6i.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
