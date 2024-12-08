@@ -173,7 +173,7 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
   Restart the IIS server.
   
 <p>
-<img src="https://imgur.com/CJ3RUbG.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/AtYkdl1.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
