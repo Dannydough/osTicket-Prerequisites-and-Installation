@@ -68,11 +68,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 4.) Enable IIS (Internet Information Services) in Windows, including the CGI and Common HTTP Features components:
 
 Navigate to World Wide Web Services → Application Development Features and select:
+
 [X] CGI
 [X] Common HTTP Features
   
 <p>
-<img src="https://imgur.com/LQjw9le.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/hUtlnuI.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
