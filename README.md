@@ -188,14 +188,14 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
   -On the right, click “Browse *:80”
   
 <p>
-<img src="https://imgur.com/Yw55d5b.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/AlLIIgU.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
   Some extensions are not enabled on the osTicket browser.
   
 <p>
-<img src="https://imgur.com/eJIsGTn.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/aYr2g27.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
