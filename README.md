@@ -132,7 +132,7 @@ If a warning or prompt appears during the download process, select “Keep” to
 </p>
 <p>
   
-  Execute the process on the next page.
+  Proceed to execute the steps outlined on the next page to complete the process.
   
 <p>
 <img src="https://imgur.com/pf11l6i.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
