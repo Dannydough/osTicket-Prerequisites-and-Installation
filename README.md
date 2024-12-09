@@ -82,10 +82,11 @@ Navigate to World Wide Web Services → Application Development Features and sel
 </p>
 <p>
   
-***NOTE*** Make sure all Common HTTP Features are checked.
+Ensure that all "Common HTTP Features" options are selected.
  
- To make sure the IIS is installed / enabled go to a browser of your choice and search for 127.0.0.1 
-  It should look something like this. 
+
+To verify that IIS is installed and enabled, open a web browser of your choice and navigate to 127.0.0.1. 
+You should see a page that looks similar to this: 
   
 <p>
 <img src="https://imgur.com/QV7x6mb.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -95,18 +96,17 @@ Navigate to World Wide Web Services → Application Development Features and sel
   
   
   
-5.) Now that the IIS is enabled, From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
-  Go through the install wizard and complete the install.
+5.) With IIS now enabled, proceed to download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) from the installation files. Follow the steps in the installation wizard to complete the process.
   
-6.) Next from the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+6.) Next, download and install the Rewrite Module (rewrite_amd64_en-US.msi) from the installation files. Follow the installation wizard to complete the setup.
   
-7.) Create a folder in the C drive called PHP.
+7.) Create a folder named PHP in the C: drive.
   
-8.) From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
+8.) Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) from the installation files, then extract its contents into the C:\PHP folder.
+  
   
   !! ATTENTION !!
-If this appears, choose to “Keep” the file:
-  
+If a warning or prompt appears during the download process, select “Keep” to retain the file.
 <p>
 <img src="https://imgur.com/xZv1Yhw.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
