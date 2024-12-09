@@ -105,7 +105,7 @@ You should see a page that looks similar to this:
 8.) Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) from the installation files, then extract its contents into the C:\PHP folder.
   
   
-  !! ATTENTION !!
+  ** ATTENTION **
   
 If a warning or prompt appears during the download process, select “Keep” to retain the file.
 <p>
@@ -118,15 +118,14 @@ If a warning or prompt appears during the download process, select “Keep” to
 </p>
 <p>
 
-9.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe. 
+9.) After extracting the ZIP file into the C:\PHP folder, proceed to download and install VC_redist.x86.exe from the installation files. Follow the setup wizard to complete the installation.
   
-10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-  Run the setup wizard:
-Typical Setup ->
-Launch Configuration Wizard (after install) ->
-Standard Configuration ->
+10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi). Then follow these steps in the setup wizard:
 
-  Make the new root password: Password1
+- Select Typical Setup
+- After the installation, launch the Configuration Wizard.
+- Choose Standard Configuration in the wizard.
+- When prompted, set the new root password to Password1.
   
 <p>
 <img src="https://imgur.com/Y5a64cE.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
