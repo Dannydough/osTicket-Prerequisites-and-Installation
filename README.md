@@ -105,7 +105,7 @@ You should see a page that looks similar to this:
 8.) Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) from the installation files, then extract its contents into the C:\PHP folder.
   
   
-  ** ATTENTION **
+  **ATTENTION**
   
 If a warning or prompt appears during the download process, select “Keep” to retain the file.
 <p>
