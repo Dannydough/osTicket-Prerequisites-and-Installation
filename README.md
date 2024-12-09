@@ -106,6 +106,7 @@ You should see a page that looks similar to this:
   
   
   !! ATTENTION !!
+  
 If a warning or prompt appears during the download process, select “Keep” to retain the file.
 <p>
 <img src="https://imgur.com/xZv1Yhw.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
