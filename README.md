@@ -139,53 +139,64 @@ If a warning or prompt appears during the download process, select “Keep” to
 </p>
 <p>
   
-11.) Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar. Open IIS as an administrator.
-  The program should look like this.
+11.) Now that the files are downloaded and installed, search for IIS in the Windows search bar and open Internet Information Services (IIS) Manager as an administrator. The program should appear with a window similar to this:
   
 <p>
 <img src="https://imgur.com/rgdZwmM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-12.) We will now want to register PHP from within IIS.
-  Click on PHP Manager
+12.) Now, to register PHP within IIS, follow these steps:
+
+In the IIS Manager, click on PHP Manager in the left-hand pane.
+From there, you can manage PHP settings and register PHP with IIS.
   
 <p>
 <img src="https://imgur.com/k8TMbOu.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-Register new PHP version.
+Register new version of PHP.
   
 <p>
 <img src="https://imgur.com/DAXaUNV.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-You will want to provide a path to the php executable file (php-cgi.exe)). 
-  Go to C Drive -> PHP -> click on php-cgi file.
+To provide the path to the PHP executable file (php-cgi.exe), follow these steps:
+
+- In the PHP Manager in IIS, click on the option to register PHP.
+- Navigate to C:\PHP.
+- Select the php-cgi.exe file and click OK to register it.
   
 <p>
 <img src="https://imgur.com/oJZ0gp9.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-  Restart the IIS server.
+  Restart IIS server.
   
 <p>
 <img src="https://imgur.com/AtYkdl1.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-13.) Install osTicket v1.15.8
-  -Download osTicket from the Installation Files Folder
-  -Extract and copy "upload" folder to c:\inetpub\wwwroot
-  -Within c:\inetpub\root, Rename "upload" to "osTicket"
+13.) To install osTicket v1.15.8, follow these steps:
+
+- Download osTicket from the Installation Files folder.
+- Extract the contents of the downloaded file.
+- Copy the "upload" folder to C:\inetpub\wwwroot.
+- Navigate to C:\inetpub\wwwroot, then rename the "upload" folder to "osTicket".
+- Afterward, reload IIS to apply the changes.
+
+This will set up osTicket on your IIS server.
   
-  Reload IIS again.
-  
-14.) On IIS go to sites -> Default -> osTicket
-  -On the right, click “Browse *:80”
+14.) In IIS, follow these steps:
+
+- Go to Sites in the left pane.
+- Expand Default and select osTicket.
+- On the right-hand side, click *Browse :80.
+- This will open osTicket in your default web browser for further configuration.
   
 <p>
 <img src="https://imgur.com/AlLIIgU.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -228,18 +239,22 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
 <p>
   
   
-15.) Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder.
-  Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+15.) After enabling the required extensions in IIS, the next step is to rename a file in the osTicket folder:
+
+- Open File Explorer and navigate to C:\inetpub\wwwroot\osTicket\include.
+- Search for ost-sampleconfig.php.
+- Rename ost-sampleconfig.php to ost-config.php.
+
+Once the file is renamed, follow these steps:
+
+- Right-click on the file and select Properties.
+- In the Properties window, go to the Security tab.
+- Click on Advanced, then disable Inheritance.
+- Select Remove all inherited permissions from this object.
   
-  We are going to rename the ost-sampleconfig.php to ost-config.php
-  
-  Now that we have renamed the files, right click on the file and go to properties.
-  From there click security, click on advance, and disable the inheritance.
-  We will select Remove all inherited permissions from this object.
-  
-  Now we will add new permissions.
-  
-  Click Add
+Now, we'll add new permissions:
+
+- Click Add to proceed.
   
 <p>
 <img src="https://imgur.com/VPZvOdo.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
