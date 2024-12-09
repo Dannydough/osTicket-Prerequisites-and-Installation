@@ -272,14 +272,14 @@ Select a principal
  Type "Everyone" in the box.
   
 <p>
-<img src="https://imgur.com/F4H3ppM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/BmPDwvH.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
   Make sure Full Control and all the other boxes are checked.
   
 <p>
-<img src="https://imgur.com/rbbGqwB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/vdzLyBu.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
