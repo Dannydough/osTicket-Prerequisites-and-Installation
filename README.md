@@ -360,4 +360,4 @@ The final step is to log in to osTicket through your web browser:
 </p>
 <p>
   
-Congratulations! You have now successfully installed and set up osTicket! 🎉
+*Congratulations! You have now successfully installed and set up osTicket!* 🎉
