@@ -14,6 +14,7 @@ body {
     color: #333; /* Dark gray text color */
 }
 
+font-family: 'Roboto', sans-serif;
 
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
