@@ -68,8 +68,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Navigate to World Wide Web Services → Application Development Features and select:
 
-[X] CGI
-[X] Common HTTP Features
+- [X] CGI
+- [X] Common HTTP Features
   
 <p>
 <img src="https://imgur.com/hUtlnuI.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
