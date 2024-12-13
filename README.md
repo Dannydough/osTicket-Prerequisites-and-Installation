@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap')
 
+/* Importing a custom font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Applying global styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Use the custom font everywhere */
+    font-size: 16px; /* Set the base font size */
+    line-height: 1.5; /* Improve readability */
+    margin: 0; /* Remove default browser margins */
+    padding: 0; /* Remove default browser padding */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
 
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
