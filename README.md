@@ -31,6 +31,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 
 1.) Begin by creating a virtual machine by visiting <a href="https://portal.azure.com/">Azure Portal</a>. Configure the virtual machine with Windows 10 Pro, version 22H2. Ensure the setup includes at least 2 vCPUs and 16 GB of memory.
 
