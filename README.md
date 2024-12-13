@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap')
+
+
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
@@ -31,22 +34,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body {
-  font-family: 'Roboto', sans-serif;
-}
 
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 
-  body {
-    font-family: 'Roboto', sans-serif;
-}
+
+
 
 
 1.) Begin by creating a virtual machine by visiting <a href="https://portal.azure.com/">Azure Portal</a>. Configure the virtual machine with Windows 10 Pro, version 22H2. Ensure the setup includes at least 2 vCPUs and 16 GB of memory.
