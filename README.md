@@ -66,7 +66,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
 4.) Enable IIS (Internet Information Services) in Windows, including the CGI and Common HTTP Features components:
 
-Navigate to World Wide Web Services → Application Development Features and select:
+- Navigate to World Wide Web Services → Application Development Features and select:
 
 [X] CGI
 [X] Common HTTP Features
@@ -81,11 +81,11 @@ Navigate to World Wide Web Services → Application Development Features and sel
 </p>
 <p>
   
-Ensure that all "Common HTTP Features" options are selected.
+**Ensure that all "Common HTTP Features" options are selected.**
  
 
-To verify that IIS is installed and enabled, open a web browser of your choice and navigate to 127.0.0.1. 
-You should see a page that looks similar to this: 
+- To verify that IIS is installed and enabled, open a web browser of your choice and navigate to 127.0.0.1. 
+- You should see a page that looks similar to this: 
   
 <p>
 <img src="https://imgur.com/QV7x6mb.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -104,9 +104,8 @@ You should see a page that looks similar to this:
 8.) Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) from the installation files, then extract its contents into the C:\PHP folder.
   
   
-  **ATTENTION**
+**ATTENTION** ---> If a warning or prompt appears during the download process, select “Keep” to retain the file.
   
-If a warning or prompt appears during the download process, select “Keep” to retain the file.
 <p>
 <img src="https://imgur.com/xZv1Yhw.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
@@ -131,7 +130,7 @@ If a warning or prompt appears during the download process, select “Keep” to
 </p>
 <p>
   
-  Proceed to execute the steps outlined on the next page to complete the process.
+- Proceed to execute the steps outlined on the next page to complete the process.
   
 <p>
 <img src="https://imgur.com/pf11l6i.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -147,22 +146,21 @@ If a warning or prompt appears during the download process, select “Keep” to
   
 12.) Now, to register PHP within IIS, follow these steps:
 
-In the IIS Manager, click on PHP Manager in the left-hand pane.
-From there, you can manage PHP settings and register PHP with IIS.
+- In the IIS Manager, click on PHP Manager in the left-hand pane. From there, you can manage PHP settings and register PHP with IIS.
   
 <p>
 <img src="https://imgur.com/k8TMbOu.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-Register new version of PHP.
+- Register new version of PHP.
   
 <p>
 <img src="https://imgur.com/DAXaUNV.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-To provide the path to the PHP executable file (php-cgi.exe), follow these steps:
+- To provide the path to the PHP executable file (php-cgi.exe), follow these steps:
 
 - In the PHP Manager in IIS, click on the option to register PHP.
 - Navigate to C:\PHP.
@@ -173,7 +171,7 @@ To provide the path to the PHP executable file (php-cgi.exe), follow these steps
 </p>
 <p>
   
-  Restart IIS server.
+- Restart IIS server.
   
 <p>
 <img src="https://imgur.com/AtYkdl1.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -188,7 +186,7 @@ To provide the path to the PHP executable file (php-cgi.exe), follow these steps
 - Navigate to C:\inetpub\wwwroot, then rename the "upload" folder to "osTicket".
 - Afterward, reload IIS to apply the changes.
 
-This will set up osTicket on your IIS server.
+- This will set up osTicket on your IIS server.
   
 14.) In IIS, follow these steps:
 
@@ -202,14 +200,14 @@ This will set up osTicket on your IIS server.
 </p>
 <p>
   
-  Some extensions are not enabled on the osTicket browser.
+- Some extensions are not enabled on the osTicket browser.
   
 <p>
 <img src="https://imgur.com/aYr2g27.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-  To enable the extensions:
+- To enable the extensions:
   -Go back to IIS, sites -> Default -> osTicket
   -Double click PHP manager
   -Click "Enable or disable an extension"
@@ -224,7 +222,7 @@ This will set up osTicket on your IIS server.
 </p>
 <p>
   
-  We will want to enable three extensions from here.
+- We will want to enable three extensions from here.
   
   1.) php_imap.dll
  
@@ -244,14 +242,14 @@ This will set up osTicket on your IIS server.
 - Search for ost-sampleconfig.php.
 - Rename ost-sampleconfig.php to ost-config.php.
 
-Once the file is renamed, follow these steps:
+- Once the file is renamed, follow these steps:
 
 - Right-click on the file and select Properties.
 - In the Properties window, go to the Security tab.
 - Click on Advanced, then disable Inheritance.
 - Select Remove all inherited permissions from this object.
   
-Now, we'll add new permissions:
+- Now, we'll add new permissions:
 
 - Click Add to proceed.
   
@@ -260,7 +258,7 @@ Now, we'll add new permissions:
 </p>
 <p>
   
-Select a principal
+- Select a principal
   
 <p>
 <img src="https://imgur.com/PoGk34d.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -268,28 +266,28 @@ Select a principal
 <p>
   
   
- Type "Everyone" in the box.
+- Type "Everyone" in the box.
   
 <p>
 <img src="https://imgur.com/BmPDwvH.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-  Make sure Full Control and all the other boxes are checked.
+- Make sure Full Control and all the other boxes are checked.
   
 <p>
 <img src="https://imgur.com/vdzLyBu.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-  Click Apply and Ok.
+- Click Apply and Ok.
   
 <p>
 <img src="https://imgur.com/saRO3y5.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
- Once the file permissions are set, continue with the osTicket setup in the browser:
+- Once the file permissions are set, continue with the osTicket setup in the browser:
 
 - On the osTicket browser page, click Continue.
 - Fill out the required fields on the page, but leave the Database Settings at the bottom for now—we'll address that shortly.
@@ -300,27 +298,27 @@ Select a principal
 </p>
 <p>
   
-  When the program is open we will create a new session in it.
+- When the program is open we will create a new session in it.
   
 <p>
 <img src="https://imgur.com/g5M1i61.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-  We want to make sure the username is root and the password is Password1.
+- We want to make sure the username is root and the password is Password1.
   
 <p>
 <img src="https://imgur.com/LEAZNOc.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
-After connecting to HeidiSQL, return to the osTicket setup in the browser to complete the configuration:
+- After connecting to HeidiSQL, return to the osTicket setup in the browser to complete the configuration:
 
-In the Database Settings section of the browser, enter the following details:
+- In the Database Settings section of the browser, enter the following details:
 - Username: root
 - Password: Password1
   
-Next, follow these steps to create the new database in HeidiSQL:
+- Next, follow these steps to create the new database in HeidiSQL:
 - In HeidiSQL, right-click on "Unnamed" on the left side.
 - Select Create new and then Database.
 - Name the new database osTicket.
@@ -331,13 +329,13 @@ Next, follow these steps to create the new database in HeidiSQL:
 </p>
 <p>
   
-The final step is to perform some cleanup:
+- The final step is to perform some cleanup:
 
-Delete the setup folder:
+- Delete the setup folder:
 - Navigate to C:\inetpub\wwwroot\osTicket\setup and delete the setup folder.
 - Only delete the setup folder—nothing else.
 
-Reset file permissions:
+- Reset file permissions:
 - After deleting the setup folder, go back to the ost-config.php file and set its permissions back to Read-only. This will secure the configuration file.
   
 <p>
@@ -350,7 +348,7 @@ Reset file permissions:
 </p>
 <p>
   
-The final step is to log in to osTicket through your web browser:
+- The final step is to log in to osTicket through your web browser:
 
 - Open your browser and go to the osTicket login page.
 - Use the admin credentials you set up during the installation to log in and complete the setup process.
