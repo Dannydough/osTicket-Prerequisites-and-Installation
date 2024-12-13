@@ -222,7 +222,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-- We will want to enable three extensions from here.
+- **We will want to enable three extensions from here.**
   
   1.) php_imap.dll
  
